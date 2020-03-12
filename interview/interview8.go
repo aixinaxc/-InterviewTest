@@ -25,7 +25,7 @@ func GetValue() int  {
 
 
 //以下函数能否编译通过，为什么
-func GetValueMain()  {
+/*func GetValueMain()  {
 	i := GetValue()
 	switch i.(type) {
 	case int:
@@ -37,6 +37,6 @@ func GetValueMain()  {
 	default:
 		println("unknown")
 	}
-}
+}*/
 
 //解析：编译失败，只有接口类型才可以使用类型选择。
