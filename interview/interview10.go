@@ -29,8 +29,8 @@ func IntMain()  {
 //所以例子中，切片 t 为 [4]，长度和容量都是 1。
 
 
-
-func CompareMain()  {
+//这个函数输出什么：
+/*func CompareMain()  {
 	a := [2]int{5,6}
 	b := [3]int{5,6}
 	if a == b {
@@ -38,6 +38,6 @@ func CompareMain()  {
 	}else {
 		fmt.Println("not equal")
 	}
-}
+}*/
 
 //解析：Invalid operation: a == b (mismatched types [2]int and [3]int)
